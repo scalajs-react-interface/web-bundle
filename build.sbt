@@ -1,6 +1,6 @@
 name := "web-bundle"
 
-version := "2018.1.0-SNAPSHOT"
+//version := "2018.1.0-SNAPSHOT"
 
 enablePlugins(ScalaJSPlugin)
 
