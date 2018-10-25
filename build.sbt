@@ -1,24 +1,24 @@
 name := "web-bundle"
 
-version := "2018.9.22-RC"
+version := "2018.10.25-RC"
 
 enablePlugins(ScalaJSPlugin)
 
 
-val scala212 = "2.12.6"
+val scala212 = "2.12.7"
 
 scalaVersion := scala212
 
 crossScalaVersions := Seq(scala212)
 
 //Dependencies
-libraryDependencies ++= Seq("scalajs-react-interface" %%% "universal" % "2018.9.22-RC",
-  "scalajs-react-interface" %%% "web" % "2018.9.22-RC",
-  "scalajs-react-interface" %%% "vdom" % "2018.9.22-RC",
-  "scalajs-react-interface" %%% "web-router" % "2018.9.22-RC",
-  "scalajs-react-interface" %%% "web-components" % "2018.9.22-RC",
-  "scalajs-css" %%% "core" % "2018.8.14",
-  "scalajs-react-interface" %%% "core" % "2018.9.22-RC")
+libraryDependencies ++= Seq("scalajs-react-interface" %%% "universal" % "2018.10.25-RC",
+  "scalajs-react-interface" %%% "web" % "2018.10.25-RC",
+  "scalajs-react-interface" %%% "vdom" % "2018.10.25-RC",
+  "scalajs-react-interface" %%% "web-router" % "2018.10.25-RC",
+  "scalajs-react-interface" %%% "web-components" % "2018.10.25-RC",
+  "scalajs-css" %%% "core" % "2018.10.25",
+  "scalajs-react-interface" %%% "core" % "2018.10.25-RC")
 
 scalacOptions ++= Seq(
   "-feature",
